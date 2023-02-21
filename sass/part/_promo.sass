@@ -1,0 +1,49 @@
+.promo
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/promo/promo.png) 
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    color: #fff
+    padding: 100px 0
+    &-container
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &-left
+        &-text_box
+            margin-bottom: 125px
+        &-headline
+            font-size: 51px
+            margin-bottom: 20px
+        &-description
+            font-size: 24px
+        &-button
+            background-color: #fff
+            font-size: 16px
+            color: #000
+            border-radius: 10px
+            padding: 15px 54px
+    &-right
+        max-width: 460px
+        width: 100%
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+    &-genre
+        &-link
+            &:nth-of-type(1)
+                margin-bottom: 5px
+            &-box
+                width: 150px
+                height: 150px
+                position: relative
+                // filter: blur(2px)
+            &-title
+                text-align: right
+                position: absolute
+                top: 10px
+                right: 10px
+
+            &-img
+                width: 150px
+                height: 150px
